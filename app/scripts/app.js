@@ -12,6 +12,21 @@ angular.module('wannahangApp', [
         templateUrl: 'partials/main',
         controller: 'MainCtrl'
       })
+      .when('/hang', {   
+        templateUrl: 'partials/hang',
+        controller: 'HangCtrl',
+        authenticate: true
+      })
+      .when('/newhang', {
+        templateUrl: 'partials/newhang',
+        controller: 'NewhangCtrl',
+        authenticate: true
+      })
+      .when('/hangtime', {
+        templateUrl: 'partials/hangtime',
+        controller: 'HangtimeCtrl',
+        authenticate: true
+      })            
       .when('/login', {
         templateUrl: 'partials/login',
         controller: 'LoginCtrl'

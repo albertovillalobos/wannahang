@@ -7,7 +7,7 @@ angular.module('wannahangApp')
 
     $scope.login = function(form) {
       $scope.submitted = true;
-      
+
       if(form.$valid) {
         Auth.login({
           email: $scope.user.email,

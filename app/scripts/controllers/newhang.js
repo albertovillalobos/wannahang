@@ -17,16 +17,18 @@ angular.module('wannahangApp')
 
   		];
 
-  		console.log($scope.friends)  	
+  		// console.log($scope.friends)
 
 
 
   	$scope.createHang = function(emails) {
 
   		// $scope.users = emails.split(',');
-
-
   	}
+
+    $scope.addfriend = function(friendUserName) {
+      console.log(friendUserName);
+    }
 
 
   });

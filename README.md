@@ -17,24 +17,30 @@ WannaHang APP
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>POST</td>
-    <td>api/session/</td>
-    <td>email, password</td>
-    <td>Returns cookie and user info</td>
-  </tr>
-  <tr>
-    <td>DELETE</td>
-    <td>api/session/</td>
-    <td></td>
-    <td>Logs you out</td>
-  </tr>
-  <tr>
-    <td>POST</td>
-    <td>api/users/friends/</td>
-    <td>username</td>
-    <td>Adds the username friendlist</td>
-  </tr>
+    <tr>
+      <td>POST</td>
+      <td>api/session/</td>
+      <td>email, password</td>
+      <td>Returns cookie and user info</td>
+    </tr>
+    <tr>
+      <td>DELETE</td>
+      <td>api/session/</td>
+      <td></td>
+      <td>Logs you out</td>
+    </tr>
+    <tr>
+      <td>POST</td>
+      <td>api/users/friends/</td>
+      <td>username</td>
+      <td>Adds the username friendlist</td>
+    </tr>
+    <tr>
+      <td>DELETE</td>
+      <td>api/users/friends/</td>
+      <td>username</td>
+      <td>Deletes the username friendlist</td>
+    </tr>
   </tbody>
 </table>
 

@@ -7,42 +7,16 @@ WannaHang APP
 
 
 ##Api Calls
-<table>
-  <thead>
-    <tr>
-      <td>HTTP Verb</td>
-      <td>URI</td>
-      <td>Fields</td>
-      <td>Description</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>POST</td>
-      <td>api/session/</td>
-      <td>email, password</td>
-      <td>Returns cookie and user info</td>
-    </tr>
-    <tr>
-      <td>DELETE</td>
-      <td>api/session/</td>
-      <td></td>
-      <td>Logs you out</td>
-    </tr>
-    <tr>
-      <td>POST</td>
-      <td>api/users/friends/</td>
-      <td>username</td>
-      <td>Adds the username friendlist</td>
-    </tr>
-    <tr>
-      <td>DELETE</td>
-      <td>api/users/friends/</td>
-      <td>username</td>
-      <td>Deletes the username friendlist</td>
-    </tr>
-  </tbody>
-</table>
+
+
+| HTTP Verb | URI                         | Fields          | Description                     |
+|-----------|-----------------------------|-----------------|---------------------------------|
+| POST      | api/session/                | email, password | Returns cookie and user info    |
+| DELETE    | api/session/                |                 | Logs you out                    |
+| POST      | api/users/friends/          | username        | Adds the username friendlist    |
+| DELETE    | api/users/friends/          | username        | Deletes the username friendlist |
+| DELETE    | /api/users/search/:username | username        | Gets user by username           |
+
 
 
 
